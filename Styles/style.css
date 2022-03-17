@@ -16,6 +16,7 @@ body {
 
 .navbar {
   background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  height: 80px;
 }
 
 .navbar-nav li {
@@ -40,8 +41,10 @@ body {
 
 /* Banner Section */
 .container {
-  padding-top: 5%;
+  padding-top: 2%;
+  margin-bottom: -1670px;
 }
+
 .title {
   margin-top: 80px;
 }
@@ -56,4 +59,8 @@ body {
 
 #banner-photo img {
   height: 20%;
+}
+/* slides part */
+#slides-part img {
+  border-radius: 10px;
 }
