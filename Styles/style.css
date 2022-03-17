@@ -1,8 +1,29 @@
 /* google font link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* Common styling */
 
 body{
     font-family: 'Poppins', sans-serif;
+}
+
+/* navbar style */
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right,#16354a, #fb9c1c);
+}
+
+.navbar-nav li {
+    padding: 0 5px;
+}
+.dropdown-menu {
+    background-image: linear-gradient(to right,#16354a, #fb9c1c);
+}
+.dropdown-item{
+    color: aliceblue;
 }
