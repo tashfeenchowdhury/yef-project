@@ -102,3 +102,45 @@ body {
   display: block;
   transform: translateY(8px);
 }
+
+/* social media section */
+#social-media {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+
+#social-media h2 {
+  margin-bottom: 30px;
+}
+.social-icons img {
+  width: 60px;
+  height: auto;
+  transition: 0.5s;
+  padding: 5px;
+}
+.social-icons a:hover img {
+  transform: translateY(-10px);
+}
+
+.title-3::before {
+  content: "";
+  background: #16354a;
+  height: 5px;
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  transform: translateY(63px);
+}
+
+.title-3::after {
+  content: "";
+  background: #16354a;
+  height: 10px;
+  width: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(17px);
+}
