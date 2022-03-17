@@ -3,37 +3,57 @@
 
 /* Common styling */
 
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 /* navbar style */
-#nav-bar{
-    position: sticky;
-    top: 0;
-    z-index: 10;
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
-.navbar{
-    background-image: linear-gradient(to right,#16354a, #fb9c1c);
+.navbar {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
 }
 
 .navbar-nav li {
-    padding: 0 5px;
+  padding: 0 5px;
 }
 
-.navbar-nav li a{
-    float: right;
-    text-align: left;
+.navbar-nav li a {
+  float: right;
+  text-align: left;
 }
 
-.navbar-nav ul a{
-    float: right;
-    text-align: right;
+.navbar-nav ul a {
+  float: right;
+  text-align: right;
 }
 .dropdown-menu {
-    background-image: linear-gradient(to right,#16354a, #fb9c1c);
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
 }
-.dropdown-item{
-    color: aliceblue;
+.dropdown-item {
+  color: aliceblue;
+}
+
+/* Banner Section */
+.container {
+  padding-top: 5%;
+}
+.title {
+  margin-top: 80px;
+}
+#join-bg {
+  background-color: #fb9c1c;
+  border-radius: 20px;
+}
+.join-btn {
+  text-decoration: none;
+  color: black;
+}
+
+#banner-photo img {
+  height: 20%;
 }
