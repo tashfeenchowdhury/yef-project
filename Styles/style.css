@@ -16,7 +16,7 @@ body {
 
 .navbar {
   background-image: linear-gradient(to right, #16354a, #fb9c1c);
-  height: 80px;
+  height: 100px;
 }
 
 .navbar-nav li {
@@ -69,10 +69,11 @@ body {
   margin-top: 30px;
   text-align: center;
 }
+
 #about-yef p {
   text-align: center;
-  padding: 50px 120px;
 }
+
 #yef {
   color: #fb9c1c;
   text-align: center;
