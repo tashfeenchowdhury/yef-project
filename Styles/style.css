@@ -40,9 +40,6 @@ body {
 }
 
 /* Banner Section */
-.container {
-  padding-top: 2%;
-}
 
 .title {
   margin-top: 80px;
@@ -57,7 +54,12 @@ body {
 }
 
 #banner-photo img {
-  height: 20%;
+  height: auto;
+  width: 100%;
+}
+.logo-img {
+  margin-top: -25px;
+  margin-left: 125px;
 }
 /* slides part */
 #slides-part img {
@@ -76,7 +78,6 @@ body {
 
 #yef {
   color: #fb9c1c;
-  text-align: center;
 }
 
 .title-2::before {
