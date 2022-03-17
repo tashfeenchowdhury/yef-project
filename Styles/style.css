@@ -55,7 +55,7 @@ body {
 
 #banner-photo img {
   height: auto;
-  width: 100%;
+  width: 90%;
 }
 .logo-img {
   margin-top: -25px;
@@ -76,7 +76,7 @@ body {
   text-align: center;
 }
 
-#yef {
+.yef {
   color: #fb9c1c;
 }
 
