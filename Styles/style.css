@@ -21,6 +21,16 @@ body{
 .navbar-nav li {
     padding: 0 5px;
 }
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+.navbar-nav ul a{
+    float: right;
+    text-align: right;
+}
 .dropdown-menu {
     background-image: linear-gradient(to right,#16354a, #fb9c1c);
 }
