@@ -57,10 +57,17 @@ body {
   height: auto;
   width: 90%;
 }
+
 .logo-img {
   margin-top: -25px;
   margin-left: 125px;
+  transition: ease transform 3s;
 }
+
+.logo-img:hover {
+  transform: scale(1.1);
+}
+
 /* slides part */
 #slides-part img {
   border-radius: 10px;
