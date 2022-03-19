@@ -39,7 +39,9 @@ body {
 
 .dropdown-menu {
   background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  padding: 0;
 }
+
 .dropdown-item {
   color: aliceblue;
 }
