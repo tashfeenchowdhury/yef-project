@@ -137,3 +137,106 @@ body {
 .profile-card {
   margin-bottom: 25px;
 }
+
+.leader-video {
+  margin-bottom: 25px;
+}
+
+/* Footer Section */
+.footer-logo img {
+  width: 100px;
+  height: auto;
+}
+ul {
+  padding-left: 0;
+}
+
+input:focus {
+  outline: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #ffff;
+}
+
+footer {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  padding-top: 70px;
+}
+.footer-about {
+  margin-bottom: 30px;
+}
+
+.footer-about p {
+  color: aliceblue;
+  font-weight: 400;
+  text-align: justify;
+}
+.footer-widget h6 {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 400;
+}
+
+.footer-widget li {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 15px;
+  list-style: none;
+  line-height: 30px;
+}
+.footer-widget li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 400;
+}
+
+.footer-widget li a:hover {
+  color: #16354a;
+}
+.footer-widget .footer-subscribe p {
+  color: aliceblue;
+}
+.footer-widget .footer-subscribe form {
+  position: relative;
+}
+
+.footer-widget .footer-subscribe form input {
+  width: 100%;
+  font-size: 15px;
+  color: #ffff;
+  background: transparent;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 2px solid #ffff;
+}
+.footer-widget .footer-subscribe form input::placeholder {
+  color: aliceblue;
+}
+.footer-widget .footer-subscribe form button {
+  color: aliceblue;
+  font-size: 15px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  height: 100%;
+  background: transparent;
+  border: none;
+}
+
+.footer-copyright {
+  border-top: 3px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer-copyright p {
+  color: aliceblue;
+  margin-bottom: 0;
+}
+
+.google-maps {
+  margin-top: 10px;
+}
