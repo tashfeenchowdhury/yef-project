@@ -68,7 +68,11 @@ body {
 }
 /*  */
 .profile {
-  padding: 80px 0;
+  padding: 50px 0;
+}
+
+#profile-1 {
+  margin-bottom: 25px;
 }
 
 .card {
