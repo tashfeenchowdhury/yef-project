@@ -45,3 +45,24 @@ body {
 .dropdown-item {
   color: aliceblue;
 }
+
+/* Executive Panel */
+
+#about-panel h1 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#about-panel h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#about-panel p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.member {
+  color: #fb9c1c;
+}
