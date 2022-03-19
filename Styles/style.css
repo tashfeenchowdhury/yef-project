@@ -32,6 +32,11 @@ body {
   float: right;
   text-align: right;
 }
+.navbar-nav ul a:hover {
+  color: #16354a;
+  background: none;
+}
+
 .dropdown-menu {
   background-image: linear-gradient(to right, #16354a, #fb9c1c);
 }
