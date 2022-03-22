@@ -73,7 +73,7 @@ body {
 
 .logo-img {
   margin-top: -25px;
-  margin-left: 125px;
+  /* margin-left: 125px; */
   transition: ease transform 3s;
 }
 
