@@ -138,6 +138,14 @@ body {
   margin-bottom: 25px;
 }
 
+.socials i {
+  color: #16354a;
+}
+
+.socials i:hover {
+  color: #fb9c1c;
+}
+
 .leader-video {
   margin-bottom: 25px;
 }
@@ -154,7 +162,7 @@ ul {
 input:focus {
   outline: none;
 }
-a:hover,
+footer a:hover,
 a:focus {
   text-decoration: none;
   outline: none;
