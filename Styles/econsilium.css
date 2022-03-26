@@ -1,0 +1,48 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Poppins&display=swap");
+
+/* Common styling */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar style */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  height: 100px;
+}
+
+.navbar-nav li {
+  padding: 0 5px;
+}
+
+.navbar-nav li a {
+  float: right;
+  text-align: left;
+}
+
+.navbar-nav ul a {
+  float: right;
+  text-align: right;
+}
+.navbar-nav ul a:hover {
+  color: #16354a;
+  background: none;
+}
+
+.dropdown-menu {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  padding: 0;
+}
+
+.dropdown-item {
+  color: aliceblue;
+}
