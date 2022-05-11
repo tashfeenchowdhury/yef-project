@@ -48,3 +48,106 @@ body {
 }
 
 /* /* Cover-photo section * */
+
+/* Econsilium logo */
+
+#econsilium-logo img {
+  height: auto;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Econsilium Details */
+.econsilium-details article {
+  text-align: justify;
+}
+
+#econsilium-tagline {
+  color: #b41e82;
+}
+
+.econsilium-video {
+  margin-top: 30px;
+}
+
+/* OCH part */
+
+.profile {
+  padding: 0 0;
+  padding-top: 30px;
+}
+
+.profile h3 {
+  color: #fb9c1c;
+  font-family: "Hurricane", cursive;
+}
+
+/* .card {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border-radius: 15px;
+} */
+
+.cover img {
+  height: 200px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 100%;
+}
+
+.profile-photo img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid #ffff;
+}
+
+.profile-photo:hover img {
+  border-color: #16354a;
+  transition: 0.7s;
+}
+
+.main-text {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.main-text h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.main-text h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.main-text p {
+  font-size: 15px;
+  padding: 0 35px;
+}
+
+.profile-card {
+  margin-bottom: 25px;
+}
+
+.socials i {
+  color: #16354a;
+  font-size: 25px;
+}
+
+.socials i:hover {
+  color: #fb9c1c;
+}
+
+.swiper {
+  width: 900px;
+}

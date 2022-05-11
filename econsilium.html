@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Young Economists' Forum</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- fontawesome link -->
     <script
       src="https://kit.fontawesome.com/38437f2655.js"
@@ -217,9 +219,133 @@
           </button>
         </div>
       </div>
+      <!-- econsilium logo -->
+      <div  class="container d-flex justify-content-center">
+        <div class="row container">
+          <div id="econsilium-logo" class="col-md-6 col-12">
+          <img src="/images/Econsilium/ECONSILIUM_LOGO-MAIN.png" alt="" />
+        </div>
+        <div class="econsilium-video col-md-6 col-12 container d-flex justify-content-center">
+        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FNSU.YEF%2Fvideos%2F503408994529161%2F&show_text=false&width=560&t=0" width="560" 
+        height="314" 
+        style="border:none;overflow:hidden" 
+        scrolling="no" 
+        frameborder="0" 
+        allowfullscreen="true" 
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+        allowFullScreen="true">
+      </iframe>
+      </div>
+        </div>
+      </div>
+      <!-- Econsilium details -->
+      <div class="econsilium-details container d-flex justify-content-center">
+        <article>
+          The world of business as we know it is constantly evolving, and this
+          is amplified during the pandemic. With several enterprises and
+          entities relocating a large portion of their operations to the virtual
+          realm, it is clear that we have gradually but steadily arrived at a
+          new normal. With this specific thought in mind, we recognize that
+          during uncertain and perilous times such as these, the role of
+          business consultancy becomes more critical than ever. Thus, in order to provide students with a platform for channeling the
+          inner consultants in them, the North South University Young
+          Economists' Forum (NSU YEF) presents <span id="econsilium-tagline">𝐓𝐡𝐞 𝐍𝐞𝐰 𝐕𝐞𝐫𝐬𝐞 𝐨𝐟 𝐄𝐜𝐨𝐧𝐬𝐢𝐥𝐢𝐮𝐦.</span>
+          <br /></br>With the distinction of being the country's largest and
+          first-ever consultancy-based business competition, The New Verse of
+          Econsilium aims to not only provide students with an opportunity to
+          practice their craft in business consultancy by utilizing their
+          perceptual, analytical, and discerning abilities, but also to assess
+          their ability in making sound top-level decisions.
+        </article>
+      </div>
+      <!-- OCH part -->
+      <div>
+        <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+          <div class="swiper-slide profile-card profile">
+            <div>
+              <div class="profile-photo">
+                <img src="/images/leaders-photo/hasan4.jpg" alt="" />
+              </div>
+              <div class="main-text">
+                <h2>Hasan A. Tareq</h2>
+                <h3>Digital Communications</h3>
+                <div class="socials">
+                  <a href="https://web.facebook.com/Mxavigree" target="_blank"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide profile-card profile">
+            <div>
+              <div class="profile-photo">
+                <img src="/images/leaders-photo/hasan4.jpg" alt="" />
+              </div>
+              <div class="main-text">
+                <h2>Hasan A. Tareq</h2>
+                <h3>Digital Communications</h3>
+                <div class="socials">
+                  <a href="https://web.facebook.com/Mxavigree" target="_blank"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide profile-card profile">
+            <div>
+              <div class="profile-photo">
+                <img src="/images/leaders-photo/hasan4.jpg" alt="" />
+              </div>
+              <div class="main-text">
+                <h2>Hasan A. Tareq</h2>
+                <h3>Digital Communications</h3>
+                <div class="socials">
+                  <a href="https://web.facebook.com/Mxavigree" target="_blank"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+      </div>
+      </div>
+      
     </main>
     <footer></footer>
 
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
     <!-- Bootstrap script link-->
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
