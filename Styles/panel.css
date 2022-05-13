@@ -130,6 +130,8 @@ body {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 15px;
+  color: #fb9c1c;
+  font-family: "Hurricane", cursive;
 }
 
 .main-text p {
