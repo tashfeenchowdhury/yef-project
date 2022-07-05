@@ -99,6 +99,7 @@ body {
 
 .yef {
   color: #fb9c1c;
+  font-weight: 600;
 }
 
 .title-2::before {
@@ -133,6 +134,11 @@ body {
 #social-media h2 {
   margin-bottom: 30px;
 }
+
+#fb-social-icon {
+  width: 65px;
+}
+
 .social-icons img {
   width: 60px;
   height: auto;
@@ -189,6 +195,7 @@ footer {
   background-image: linear-gradient(to right, #16354a, #fb9c1c);
   padding-top: 70px;
 }
+
 .footer-about {
   margin-bottom: 30px;
 }
@@ -201,7 +208,7 @@ footer {
 .footer-widget h6 {
   text-decoration: none;
   color: aliceblue;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .footer-widget li {
