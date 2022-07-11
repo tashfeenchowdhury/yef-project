@@ -166,6 +166,9 @@ body {
 .footer-logo img {
   width: 100px;
   height: auto;
+  position: relative;
+  right: 10px;
+  bottom: 22px;
 }
 ul {
   padding-left: 0;
@@ -183,7 +186,7 @@ a:focus {
 
 footer {
   background-image: linear-gradient(to right, #16354a, #fb9c1c);
-  padding-top: 70px;
+  padding-top: 60px;
 }
 .footer-about {
   margin-bottom: 30px;
@@ -259,4 +262,11 @@ footer {
 
 .google-maps {
   margin-top: 10px;
+}
+
+@media all and (max-width: 480px) {
+  #nav-yef-logo {
+    position: relative;
+    right: 75px;
+  }
 }
