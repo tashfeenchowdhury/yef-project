@@ -100,6 +100,7 @@ body {
 
 #about-yef p {
   text-align: justify;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -111,24 +112,12 @@ body {
 .title-2::before {
   content: "";
   background: #16354a;
-  height: 5px;
+  height: 2px;
   width: 250px;
   margin-right: auto;
   margin-left: auto;
   display: block;
   transform: translateY(63px);
-}
-
-.title-2::after {
-  content: "";
-  background: #16354a;
-  height: 10px;
-  width: 50px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 40px;
-  display: block;
-  transform: translateY(8px);
 }
 
 /* social media section */
@@ -139,6 +128,11 @@ body {
 
 #social-media h2 {
   margin-bottom: 30px;
+}
+
+.social-icons {
+  position: relative;
+  top: 10px;
 }
 
 #fb-social-icon {
@@ -158,24 +152,12 @@ body {
 .title-3::before {
   content: "";
   background: #16354a;
-  height: 5px;
+  height: 2px;
   width: 350px;
   margin-right: auto;
   margin-left: auto;
   display: block;
   transform: translateY(63px);
-}
-
-.title-3::after {
-  content: "";
-  background: #16354a;
-  height: 10px;
-  width: 50px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 40px;
-  display: block;
-  transform: translateY(17px);
 }
 
 /* Footer Section */
