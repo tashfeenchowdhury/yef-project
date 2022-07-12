@@ -168,7 +168,8 @@ body {
 }
 
 /* Archive Button */
-.join-btn {
+
+.archive-btn {
   text-decoration: none;
   color: black;
 }
@@ -206,12 +207,12 @@ body {
   transition: transform 0.5s;
   transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
 }
-#join-bg::before {
+#archive-bg::before {
   transform: scaleX(0);
   border-radius: 15px;
 }
 
-#join-bg:hover::before {
+#archive-bg:hover::before {
   transform: scaleX(1);
 }
 
