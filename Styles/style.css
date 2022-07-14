@@ -116,7 +116,6 @@ body {
 
 .logo-img {
   margin-top: -25px;
-  /* margin-left: 125px; */
   transition: ease transform 3s;
 }
 
@@ -311,5 +310,13 @@ footer {
   }
   #tagline {
     text-align: center;
+  }
+  #join-div {
+    display: flex;
+    justify-content: center;
+  }
+  #banner-photo img {
+    position: relative;
+    left: 15px;
   }
 }
