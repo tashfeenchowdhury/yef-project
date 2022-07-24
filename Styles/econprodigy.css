@@ -51,10 +51,14 @@ body {
 .dropdown-item {
   color: aliceblue;
 }
+/* Econprodigy Cover */
+#ep-cover img {
+  width: -webkit-fill-available;
+}
 
-/* Econsilium logo */
+/* Econprodigy logo */
 
-#econsilium-logo img {
+#econprodigy-logo img {
   height: auto;
   width: 100%;
   margin-top: 50px;
@@ -63,145 +67,23 @@ body {
   top: 30px;
 }
 
-/* Econsilium Details */
-.econsilium-details article {
+/* Econprodigy Details */
+.econprodigy-details article {
   text-align: justify;
 }
 
-#econsilium-tagline {
-  color: #b41e82;
-}
-
-.econsilium-video {
-  margin-top: 30px;
-}
-
-/* Organizing committee head */
-#about-och h1 {
-  margin-top: 30px;
-  text-align: center;
+#econ {
+  color: #fb9c1c;
   font-weight: 600;
 }
 
-#about-och h2 {
-  margin-top: 10px;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 400;
+#prodigy {
+  color: #1f1d59;
+  font-weight: 600;
 }
 
-#about-och p {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.heads {
-  color: #b41e82;
-}
-
-/* OCH part */
-
-.profile {
-  padding: 0 0;
-  padding-top: 30px;
-}
-
-.profile h3 {
-  color: #b41e82;
-  font-family: "Hurricane", cursive;
-}
-
-/* .card {
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  border-radius: 15px;
-} */
-
-.cover img {
-  height: 200px;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
-  width: 100%;
-}
-
-.profile-photo img {
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 1;
-  /* width: 140px;
-  height: 140px; */
-  border-radius: 50%;
-  border: 5px solid #ffff;
-}
-
-.profile-photo:hover img {
-  border-color: #16354a;
-  transition: 0.7s;
-}
-
-.main-text {
-  text-align: center;
-}
-
-.main-text h2 {
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 20px;
-  margin: 0 0 10px;
-}
-.main-text h3 {
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 15px;
-}
-
-/* .main-text p {
-  font-size: 15px;
-  padding: 0 35px;
-} */
-
-/* .profile-card {
-    margin-bottom: 25px;
-  } */
-
-.socials i {
-  color: #16354a;
-  font-size: 25px;
-}
-
-.socials i:hover {
-  color: #b41e82;
-}
-
-/* OCH carousel- Owl carousel */
-
-.owl-dots {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 15px;
-}
-
-.owl-dot {
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  cursor: pointer;
-  outline: none;
-  margin: 0 5px;
-  border: 2px solid #16354a !important;
-  transition: all 0.3s ease;
-}
-
-.owl-dot:hover,
-.owl-dot:active {
-  background: #16354a !important;
-}
-
-.owl-carousel .owl-item img {
-  display: block;
-  width: 30% !important;
+.econprodigy-video {
+  margin-top: 30px;
 }
 
 /* Footer Section */
@@ -219,7 +101,7 @@ ul {
 input:focus {
   outline: none;
 }
-footer a:hover,
+a:hover,
 a:focus {
   text-decoration: none;
   outline: none;
@@ -230,6 +112,7 @@ footer {
   background-image: linear-gradient(to right, #16354a, #fb9c1c);
   padding-top: 60px;
 }
+
 .footer-about {
   margin-bottom: 30px;
 }
@@ -311,7 +194,11 @@ footer {
     position: relative;
     right: 75px;
   }
-  .econsilium-details article {
+  #ep-details {
+    position: relative;
+    bottom: 25px;
+  }
+  .econprodigy-details article {
     margin-top: -100px;
   }
 }
