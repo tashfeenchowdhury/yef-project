@@ -163,7 +163,16 @@ body {
   color: #fb9c1c;
 }
 
+#iframe-video iframe {
+  width: -webkit-fill-available;
+}
+
+.executive-video p {
+  text-align: justify;
+}
+
 .executive-video {
+  margin-top: 25px;
   margin-bottom: 25px;
 }
 

@@ -152,6 +152,14 @@ body {
   color: #fb9c1c;
 }
 
+#iframe-video iframe {
+  width: -webkit-fill-available;
+}
+
+.leader-video p {
+  text-align: justify;
+}
+
 .leader-video {
   margin-bottom: 25px;
 }
@@ -309,5 +317,9 @@ footer {
   #nav-yef-logo {
     position: relative;
     right: 75px;
+  }
+
+  .leader-video {
+    margin-bottom: -100px;
   }
 }
