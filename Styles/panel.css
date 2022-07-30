@@ -71,6 +71,10 @@ body {
   margin-bottom: 50px;
 }
 
+.main-text p {
+  height: 160px;
+}
+
 .member {
   color: #fb9c1c;
 }
