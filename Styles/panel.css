@@ -51,6 +51,11 @@ body {
 .dropdown-item {
   color: aliceblue;
 }
+/* panel cover photo */
+
+#panel-cover img {
+  width: -webkit-fill-available;
+}
 
 /* Executive Panel 2020-2021 */
 
