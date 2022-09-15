@@ -52,31 +52,32 @@ body {
   color: aliceblue;
 }
 
-/* Econsilium logo */
+/* Econfest logo */
 
-#econsilium-logo img {
+#econfest-logo img {
   height: auto;
-  width: 100%;
+  width: 60%;
   margin-top: 50px;
   margin-bottom: 50px;
   position: relative;
-  top: 30px;
+  left: 65px;
 }
 
-/* Econsilium Details */
-.econsilium-details article {
+/* Econfest Details */
+.econfest-details article {
   text-align: justify;
 }
 
-#econsilium-tagline {
-  color: #b41e82;
-}
-
-.econsilium-video {
+.econfest-video {
   margin-top: 30px;
 }
 
 /* Organizing committee head */
+
+#och-econfest {
+  color: linear-gradient(to right, #16354a, #fb9c1c);
+}
+
 #about-och h1 {
   margin-top: 30px;
   text-align: center;
@@ -96,7 +97,7 @@ body {
 }
 
 .heads {
-  color: #b41e82;
+  color: #ee6429;
 }
 
 /* OCH part */
@@ -107,7 +108,7 @@ body {
 }
 
 .profile h3 {
-  color: #b41e82;
+  color: #ee6429;
   font-family: "Hurricane", cursive;
 }
 
@@ -311,7 +312,17 @@ footer {
     position: relative;
     right: 75px;
   }
-  .econsilium-details article {
+
+  #econfest-logo img {
+    height: auto;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 20px;
+  }
+
+  .econfest-details article {
     margin-top: -100px;
   }
 }
