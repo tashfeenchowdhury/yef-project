@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Young Economists' Forum</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <!-- fontawesome link -->
     <script
       src="https://kit.fontawesome.com/38437f2655.js"
@@ -13,9 +18,18 @@
     <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <!-- Linked CSS -->
-    <link rel="stylesheet" href="Styles/econprodigy.css" />
+    <link rel="stylesheet" href="Styles/ascend.css" />
     <!-- favicon -->
     <link rel="shortcut icon" href="images/yef.png" type="image/x-icon" />
+    <!-- Jquery Cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Owl Carousel Cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Owl Carousel CSS cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
   </head>
   <body>
     <header>
@@ -163,9 +177,7 @@
                     class="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
-                    <li>
-                      <a class="dropdown-item" href="ascend.html">Ascend</a>
-                    </li>
+                    <li><a class="dropdown-item" href="#">Ascend</a></li>
                     <li><a class="dropdown-item" href="#">Speaktacular</a></li>
                   </ul>
                 </li>
@@ -194,57 +206,30 @@
       </div>
     </header>
     <main>
-      <!-- econprodigy Cover -->
-      <div id="ep-cover">
-        <img src="images/ep-cover.jpg" alt="" />
-      </div>
-      <div id="ep-details" class="container d-flex justify-content-center">
-        <div class="row container">
-          <div id="econprodigy-logo" class="col-md-6 col-12">
-            <img src="images/yef-event-logos/econprodigy-Logo.png" alt="" />
-          </div>
-          <div
-            class="econprodigy-video col-md-6 col-12 container d-flex justify-content-center"
-          >
-            <iframe
-              src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FNSU.YEF%2Fvideos%2F989587074729370%2F&show_text=false&width=560&t=0"
-              width="560"
-              height="314"
-              style="border: none; overflow: hidden"
-              scrolling="no"
-              frameborder="0"
-              allowfullscreen="true"
-              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-              allowfullscreen="true"
-            ></iframe>
-          </div>
+      <!-- ascend logo -->
+      <div class="container-fluid">
+        <div id="ascend-logo" class="row col-12 justify-content-center">
+          <img src="images/yef-event-logos/ascend-logo.png" alt="" />
         </div>
       </div>
-      <!-- econprodigy details -->
-      <div class="econprodigy-details container d-flex justify-content-center">
+      <!-- ascend details -->
+      <div class="ascend-details container d-flex justify-content-center">
         <article>
-          <span id="econ">Econ</span><span id="prodigy">Prodigy</span> is an
-          inter-university Policy Making competition; the largest of its kind in
-          Bangladesh, to take place over the course of the coming weeks. This is
-          a platform prudently constructed by North South University's Young
-          Economists' Forum (YEF) to encourage and facilitate the student body
-          of the country in actively participating in dialogues revolving around
-          real economic issues. Their participation is expected to not only
-          enrich their skill-sets and experience but also to generate ideas and
-          policies to solve relevant issues. The entire program, in all of its
-          three stages, is evaluated by highly educated individuals both in the
-          fields of academia and business landscape. <br /><br />
-          YEF is a prestigious student-run, academic club focused on the
-          accumulation of ideas and expertise through its diverse member-base,
-          and the formation of a platform to voice these ideas and encourage
-          nationwide student-body-participation in economic thought. In
-          achieving these aims, the club oversees the publication of two
-          self-made publications- The Equilibrium and The Chronicle. Besides
-          this, it organizes various Economics-based competition, the largest of
-          which, is EconProdigy- returning now for its fourth installment.
+          In the fast-paced world of business and economics, it is not just
+          about making the right decisions anymore. Instead, it is about the
+          thrill of making those decisions promptly, which require intelligent
+          thinking.Keeping this in mind, Young Economists' Forum (YEF) brings
+          the same thrill to you with "ascend - Quarantine Challenge Week".
+          <br /><br />
+          ascend is a business competition that lets undergraduate students test
+          their ability of strategic planning, modelling and decision making.
+          Most importantly, it tests their ability to perform under pressure.
+          Participants will have to brainstorm, ideate and work their way to the
+          championship and be rewarded.
         </article>
       </div>
     </main>
+
     <footer>
       <!-- Footer Section Start -->
       <div class="container">
@@ -325,5 +310,7 @@
 
     <!-- Bootstrap script link-->
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Jquery link for owl carousel -->
+    <script src="js/main.js"></script>
   </body>
 </html>
