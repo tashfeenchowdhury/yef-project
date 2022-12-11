@@ -76,9 +76,7 @@ body {
   margin-bottom: 50px;
 }
 
-.main-text p {
-  height: 160px;
-}
+
 
 .member {
   color: #fb9c1c;
@@ -136,7 +134,6 @@ body {
 
 .main-text ul {
   display: inline-block;
-  margin: auto;
 }
 
 .main-text h2 {
@@ -156,6 +153,7 @@ body {
 .main-text p {
   font-size: 15px;
   padding: 0 35px;
+  
 }
 
 .profile-card {
