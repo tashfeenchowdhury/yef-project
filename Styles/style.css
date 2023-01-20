@@ -295,6 +295,14 @@ footer {
   margin-bottom: 0;
 }
 
+.footer-copyright p a {
+  color: white;
+  text-decoration: none;
+}
+.footer-copyright p a:hover {
+  color: #16354a;
+}
+
 .google-maps {
   margin-top: 10px;
 }

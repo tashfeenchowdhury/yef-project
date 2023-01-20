@@ -309,6 +309,11 @@ footer {
   margin-bottom: 0;
 }
 
+.footer-copyright p a {
+  color: white;
+  text-decoration: none;
+}
+
 .google-maps {
   margin-top: 10px;
 }
