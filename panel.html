@@ -1,488 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Young Economists' Forum</title>
-    <!-- fontawesome link -->
-    <script
-      src="https://kit.fontawesome.com/38437f2655.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- bootstrap stylesheet -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-    <!-- Linked CSS -->
-    <link rel="stylesheet" href="Styles/panel.css" />
-    <!-- favicon -->
-    <link rel="shortcut icon" href="images/yef.png" type="image/x-icon" />
-  </head>
-  <body>
-    <header>
-      <!-- nav-bar section -->
-      <div id="nav-bar" class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <div
-            class="container-fluid"
-            style="
-              background-image: linear-gradient(to right, #16354a, #fb9c1c);
-            "
-          >
-            <a
-              class="navbar-brand"
-              href="http://www.northsouth.edu/"
-              target="_blank"
-              ><img
-                src="images/NSU.png"
-                alt="nsu-logo"
-                height="80px"
-                width="80px"
-            /></a>
-            <a href="index.html"
-              ><img
-                id="nav-yef-logo"
-                src="images/yef.png"
-                alt="yef-logo"
-                height="90px"
-                width="80px"
-            /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="index.html"
-                    >HOME</a
-                  >
-                </li>
 
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    PANEL
-                  </a>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="panel.html"
-                        >Executive Body</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="leader.html"
-                        >Team Leaders</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    EVENTS
-                  </a>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="econprodigy.html"
-                        >Econprodigy</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="econsilium.html"
-                        >Econsilium</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="econfest.html">Econfest</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="casecade.html">CaseCade</a>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Bugdet Talk</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    PUBLICATIONS
-                  </a>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <li><a class="dropdown-item" href="#">Equilibrium</a></li>
-                    <li><a class="dropdown-item" href="#">Chornicle</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    ACTIVITIES
-                  </a>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="ascend.html">Ascend</a>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Speaktacular</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="previous/eb-term-2020-21.html"
-                    >HALL OF FAME</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >FACULTY ADVISOR</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >OUR PARTNERS</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <!-- Panel Cover -->
-      <div id="panel-cover">
-        <img src="images/ebs-2022-2023/eb-cover-web.jpg" alt="" />
-      </div>
-      <!-- Executive Panel 2022-2023 -->
-      <div id="about-panel" class="container">
-        <div class="container">
-          <h1 class="title">
-            EXECUTIVE-BODY <span class="member"> MEMBERS</span>
-          </h1>
-          <h2>TERM 2022-2023</h2>
-        </div>
-      </div>
-      <div class="profile">
-        <div id="profile-1" class="container d-flex justify-content-center">
-          <div class="col-md-4 profile-card">
-            <div class="card h-100">
-              <div class="cover">
-                <img src="images/panel-photo/yef-cover.jpg" alt="" />
-              </div>
-              <div class="profile-photo">
-                <img src="images/ebs-2022-2023/hamza succession.jpg" alt="" />
-              </div>
-              <div class="main-text">
-                <h2>Hamza Mohammad</h2>
-                <h3>President</h3>
-                <p>
-                  The head-honcho of YEF! With his resilience, indomitable
-                  talent, and incessant hard work he will inevitably serve as a
-                  nonpareil President of Young Economists’ Forum.
-                </p>
-              </div>
-              <div class="socials card-footer">
-                <a
-                  href="https://web.facebook.com/hamza.mohammad.2534"
-                  target="_blank"
-                  ><i class="fa-brands fa-facebook"></i
-                ></a>
-              </div>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Young Economists' Forum</title>
+  <!-- fontawesome link -->
+  <script src="https://kit.fontawesome.com/38437f2655.js" crossorigin="anonymous"></script>
+  <!-- bootstrap stylesheet -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <!-- Linked CSS -->
+  <link rel="stylesheet" href="Styles/panel.css" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/yef.png" type="image/x-icon" />
+</head>
+
+<body>
+  <header>
+    <!-- nav-bar section -->
+    <div id="nav-bar" class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid" style="background-image: linear-gradient(to right, #16354a, #fb9c1c);">
+          <a class="navbar-brand" href="http://www.northsouth.edu/" target="_blank"><img src="images/NSU.png"
+              alt="nsu-logo" height="80px" width="80px"></a>
+          <a href="index.html"><img id="nav-yef-logo" src="images/yef.png" alt="yef-logo" height="90px"
+              width="80px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  PANEL
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="panel.html">Executive Body</a></li>
+                  <li><a class="dropdown-item" href="leader.html">Team Leaders</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  EVENTS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="econprodigy.html">Econprodigy</a></li>
+                  <li><a class="dropdown-item" href="econsilium.html">Econsilium</a></li>
+                  <li><a class="dropdown-item" href="econfest.html">Econfest</a></li>
+                  <li><a class="dropdown-item" href="casecade.html">CaseCade</a></li>
+                  <li><a class="dropdown-item" href="#">Bugdet Talk</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  PUBLICATIONS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="equilibrium.html">Equilibrium</a></li>
+                  <li><a class="dropdown-item" href="#">Chornicle</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  ACTIVITIES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="ascend.html">Ascend</a></li>
+                  <li><a class="dropdown-item" href="#">Speaktacular</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="previous/eb-term-2020-21.html">HALL OF FAME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="faculty-advisor.html">FACULTY ADVISOR</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">OUR PARTNERS</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <!-- GS and VP -->
-        <div class="container">
-          <div class="row d-flex justify-content-between">
-            <div class="col-md-4 profile-card">
-              <div class="card h-100">
-                <div class="cover">
-                  <img src="images/panel-photo/yef-cover.jpg" alt="" />
-                </div>
-                <div class="profile-photo">
-                  <img src="images/ebs-2022-2023/ava succession.png" alt="" />
-                </div>
-                <div class="main-text card-body">
-                  <h2>Ava Mir</h2>
-                  <h3>General Secretary</h3>
-                  <p>
-                    The academic maestro, armed with her exuberant persona and
-                    unique amalgamation of rigor and amiable nature, our General
-                    Secretary is bound to astound us with her top-notch work
-                    under all kinds of pressure.
-                  </p>
-                </div>
-                <div class="socials card-footer">
-                  <a href="https://web.facebook.com/ava.mir.180" target="_blank"
-                    ><i class="fa-brands fa-facebook"></i
-                  ></a>
-                  <a
-                    href="https://www.linkedin.com/in/ava-mir-53420317a/"
-                    target="_blank"
-                    ><i class="fa-brands fa-linkedin"></i
-                  ></a>
-                </div>
-              </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- Panel Cover -->
+    <div id="panel-cover">
+      <img src="images/ebs-2022-2023/eb-cover-web.jpg" alt="" />
+    </div>
+    <!-- Executive Panel 2022-2023 -->
+    <div id="about-panel" class="container">
+      <div class="container">
+        <h1 class="title">
+          EXECUTIVE-BODY <span class="member"> MEMBERS</span>
+        </h1>
+        <h2>TERM 2022-2023</h2>
+      </div>
+    </div>
+    <div class="profile">
+      <div id="profile-1" class="container d-flex justify-content-center">
+        <div class="col-md-4 profile-card">
+          <div class="card h-100">
+            <div class="cover">
+              <img src="images/panel-photo/yef-cover.jpg" alt="" />
             </div>
-            <!-- VPs -->
-            <div class="col-md-4 profile-card">
-              <div class="card h-100">
-                <div class="cover">
-                  <img src="images/panel-photo/yef-cover.jpg" alt="" />
-                </div>
-                <div class="profile-photo">
-                  <img
-                    src="images/ebs-2022-2023/zidane succession.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="main-text">
-                  <h2>Mashrur Ahmed Zidane</h2>
-                  <h3>Vice-President (External Operations)</h3>
-                  <p>
-                    An individual who endured all the adversities and critics to
-                    pave the path for reaching the pinnacle, the Vice President
-                    of External Operations will surely leave a trace in all the
-                    facets of this club.
-                  </p>
-                </div>
-                <div class="socials card-footer">
-                  <a
-                    href="https://web.facebook.com/zidane.khan.75"
-                    target="_blank"
-                    ><i class="fa-brands fa-facebook"></i
-                  ></a>
-                  <a
-                    href="https://www.linkedin.com/in/mashrur-ahmed-zidane-54647b1b3/"
-                    target="_blank"
-                    ><i class="fa-brands fa-linkedin"></i
-                  ></a>
-                </div>
-              </div>
+            <div class="profile-photo">
+              <img src="images/ebs-2022-2023/hamza succession.jpg" alt="" />
             </div>
-            <!--  -->
-            <div class="col-md-4 profile-card">
-              <div class="card">
-                <div class="cover">
-                  <img src="images/panel-photo/yef-cover.jpg" alt="" />
-                </div>
-                <div class="profile-photo">
-                  <img
-                    src="images/ebs-2022-2023/musarrat succession.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="main-text">
-                  <h2>Musarrat Mahtab</h2>
-                  <h3>Vice-President (Internal Operations)</h3>
-                  <p>
-                    With her silver tongued presence and generous heart,
-                    alongside her bold gestures and approachable nature, the
-                    Vice President of Internal Operations will surely add elan
-                    to her and everyone else’s work around her ahead, as always.
-                  </p>
-                </div>
-                <div class="socials card-footer">
-                  <a
-                    href="https://web.facebook.com/musarrat.mahtab"
-                    target="_blank"
-                    ><i class="fa-brands fa-facebook"></i
-                  ></a>
-                  <a
-                    href="https://www.linkedin.com/in/musarrat-mahtab-620a591a5/"
-                    target="_blank"
-                    ><i class="fa-brands fa-linkedin"></i
-                  ></a>
-                </div>
-              </div>
+            <div class="main-text">
+              <h2>Hamza Mohammad</h2>
+              <h3>President</h3>
+              <p>
+                The head-honcho of YEF! With his resilience, indomitable
+                talent, and incessant hard work he will inevitably serve as a
+                nonpareil President of Young Economists’ Forum.
+              </p>
+            </div>
+            <div class="socials card-footer">
+              <a href="https://web.facebook.com/hamza.mohammad.2534" target="_blank"><i
+                  class="fa-brands fa-facebook"></i></a>
             </div>
           </div>
         </div>
       </div>
-      <!-- Treasurer, JS and Cheif of Admin-->
+      <!-- GS and VP -->
       <div class="container">
         <div class="row d-flex justify-content-between">
-          <!--  -->
           <div class="col-md-4 profile-card">
             <div class="card h-100">
               <div class="cover">
                 <img src="images/panel-photo/yef-cover.jpg" alt="" />
               </div>
               <div class="profile-photo">
-                <img src="images/ebs-2022-2023/anika succession.jpg" alt="" />
+                <img src="images/ebs-2022-2023/ava succession.png" alt="" />
               </div>
-              <div class="main-text">
-                <h2>Anika Saiara Ali</h2>
-                <h3>Joint Secretary</h3>
+              <div class="main-text card-body">
+                <h2>Ava Mir</h2>
+                <h3>General Secretary</h3>
                 <p>
-                  With her excellent craftsmanship, as well as originality and
-                  resourcefulness that leave us in awe, we believe our Joint
-                  Secretary will be able to redefine the desired solutions of
-                  this club by putting her creative mind to work.
+                  The academic maestro, armed with her exuberant persona and
+                  unique amalgamation of rigor and amiable nature, our General
+                  Secretary is bound to astound us with her top-notch work
+                  under all kinds of pressure.
                 </p>
               </div>
               <div class="socials card-footer">
-                <a href="https://web.facebook.com/neha.anika.5" target="_blank"
-                  ><i class="fa-brands fa-facebook"></i
-                ></a>
-                <a
-                  href="https://www.linkedin.com/in/anika-saiara-7240431bb/"
-                  target="_blank"
-                  ><i class="fa-brands fa-linkedin"></i
-                ></a>
+                <a href="https://web.facebook.com/ava.mir.180" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/ava-mir-53420317a/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- VPs -->
+          <div class="col-md-4 profile-card">
+            <div class="card h-100">
+              <div class="cover">
+                <img src="images/panel-photo/yef-cover.jpg" alt="" />
+              </div>
+              <div class="profile-photo">
+                <img src="images/ebs-2022-2023/zidane succession.jpg" alt="" />
+              </div>
+              <div class="main-text">
+                <h2>Mashrur Ahmed Zidane</h2>
+                <h3>Vice-President (External Operations)</h3>
+                <p>
+                  An individual who endured all the adversities and critics to
+                  pave the path for reaching the pinnacle, the Vice President
+                  of External Operations will surely leave a trace in all the
+                  facets of this club.
+                </p>
+              </div>
+              <div class="socials card-footer">
+                <a href="https://web.facebook.com/zidane.khan.75" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/mashrur-ahmed-zidane-54647b1b3/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
               </div>
             </div>
           </div>
           <!--  -->
           <div class="col-md-4 profile-card">
-            <div class="card h-100">
+            <div class="card">
               <div class="cover">
                 <img src="images/panel-photo/yef-cover.jpg" alt="" />
               </div>
               <div class="profile-photo">
-                <img src="images/ebs-2022-2023/ifty succession.jpg" alt="" />
+                <img src="images/ebs-2022-2023/musarrat succession.jpg" alt="" />
               </div>
               <div class="main-text">
-                <h2>Ertisam Ali Sarker Ifti</h2>
-                <h3>Chief of Administrative Affairs</h3>
+                <h2>Musarrat Mahtab</h2>
+                <h3>Vice-President (Internal Operations)</h3>
                 <p>
-                  The man behind the scene, working fervently and without fail
-                  to ensure the timeliness and delivery of perfection, our Chief
-                  of Administrative Affair is perhaps who holds up the
-                  organization with his unwavering dedication and unmatched
-                  zeal.
+                  With her silver tongued presence and generous heart,
+                  alongside her bold gestures and approachable nature, the
+                  Vice President of Internal Operations will surely add elan
+                  to her and everyone else’s work around her ahead, as always.
                 </p>
               </div>
               <div class="socials card-footer">
-                <a
-                  href="https://web.facebook.com/saifsarkar.ifti"
-                  target="_blank"
-                  ><i class="fa-brands fa-facebook"></i
-                ></a>
-                <a
-                  href="https://www.linkedin.com/in/ertisam-ali-sarkar-109a74189/"
-                  target="_blank"
-                  ><i class="fa-brands fa-linkedin"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <!--  -->
-          <div class="col-md-4 profile-card">
-            <div class="card h-100">
-              <div class="cover">
-                <img src="images/panel-photo/yef-cover.jpg" alt="" />
-              </div>
-              <div class="profile-photo">
-                <img src="images/ebs-2022-2023/rafael succession.jpg" alt="" />
-              </div>
-              <div class="main-text">
-                <h2>Rafael Ahmed</h2>
-                <h3>Treasurer</h3>
-                <p>
-                  A visionary leader and an ingenious marketeer- this individual
-                  packs quite a punch with his benevolent presence. We can see
-                  the zeal of our Treasurer in all the fields of this club,
-                  notably, when it comes to grooming the members through
-                  development programs.
-                </p>
-              </div>
-              <div class="socials card-footer">
-                <a href="https://web.facebook.com/rafaelahmedrr" target="_blank"
-                  ><i class="fa-brands fa-facebook"></i
-                ></a>
-                <a
-                  href="https://www.linkedin.com/in/rafaelahmedr/"
-                  target="_blank"
-                  ><i class="fa-brands fa-linkedin"></i
-                ></a>
+                <a href="https://web.facebook.com/musarrat.mahtab" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/musarrat-mahtab-620a591a5/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Executive video term 2022-2023 -->
-      <div class="container executive-video">
-        <div class="row d-flex justify-content-around">
-          <div class="col-md-6 col-sm-12">
-            <p>
-              We all hold abounding ambitions, but the course of paving the path
-              to reach them is rugged with uphill battles and tough grinds. Most
-              of the time we come across puzzling and unforeseeable trails, and
-              that is exactly when we are obliged to open doors for ourselves
-              and strive to achieve them. Such has been the journey of our
-              Executive Body Members of YEF. It’s not just a name tag, it is the
-              emblem that one is bestowed with to represent YEF and to modulate
-              all the pivotal activities by holding one shared vision, which is
-              to up skill and hone the potential of the members of this club by
-              working collaboratively with them and conveying an apparent idea
-              on the multi-faceted attributes of economics in our lives. These
-              individuals, with their determination and unabated efforts, have
-              finally attained this glorious and illustrious position of
-              Executive Body Member of the Young Economists’ Forum.
-            </p>
+    </div>
+    <!-- Treasurer, JS and Cheif of Admin-->
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <!--  -->
+        <div class="col-md-4 profile-card">
+          <div class="card h-100">
+            <div class="cover">
+              <img src="images/panel-photo/yef-cover.jpg" alt="" />
+            </div>
+            <div class="profile-photo">
+              <img src="images/ebs-2022-2023/anika succession.jpg" alt="" />
+            </div>
+            <div class="main-text">
+              <h2>Anika Saiara Ali</h2>
+              <h3>Joint Secretary</h3>
+              <p>
+                With her excellent craftsmanship, as well as originality and
+                resourcefulness that leave us in awe, we believe our Joint
+                Secretary will be able to redefine the desired solutions of
+                this club by putting her creative mind to work.
+              </p>
+            </div>
+            <div class="socials card-footer">
+              <a href="https://web.facebook.com/neha.anika.5" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/in/anika-saiara-7240431bb/" target="_blank"><i
+                  class="fa-brands fa-linkedin"></i></a>
+            </div>
           </div>
-          <div id="iframe-video" class="col-md-5 col-sm-12">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/eqJClwLfpME"
-              style="border: none; overflow: hidden"
-              title="YouTube video player"
-              scrolling="0"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen="false"
-            ></iframe>
+        </div>
+        <!--  -->
+        <div class="col-md-4 profile-card">
+          <div class="card h-100">
+            <div class="cover">
+              <img src="images/panel-photo/yef-cover.jpg" alt="" />
+            </div>
+            <div class="profile-photo">
+              <img src="images/ebs-2022-2023/ifty succession.jpg" alt="" />
+            </div>
+            <div class="main-text">
+              <h2>Ertisam Ali Sarker Ifti</h2>
+              <h3>Chief of Administrative Affairs</h3>
+              <p>
+                The man behind the scene, working fervently and without fail
+                to ensure the timeliness and delivery of perfection, our Chief
+                of Administrative Affair is perhaps who holds up the
+                organization with his unwavering dedication and unmatched
+                zeal.
+              </p>
+            </div>
+            <div class="socials card-footer">
+              <a href="https://web.facebook.com/saifsarkar.ifti" target="_blank"><i
+                  class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/in/ertisam-ali-sarkar-109a74189/" target="_blank"><i
+                  class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="col-md-4 profile-card">
+          <div class="card h-100">
+            <div class="cover">
+              <img src="images/panel-photo/yef-cover.jpg" alt="" />
+            </div>
+            <div class="profile-photo">
+              <img src="images/ebs-2022-2023/rafael succession.jpg" alt="" />
+            </div>
+            <div class="main-text">
+              <h2>Rafael Ahmed</h2>
+              <h3>Treasurer</h3>
+              <p>
+                A visionary leader and an ingenious marketeer- this individual
+                packs quite a punch with his benevolent presence. We can see
+                the zeal of our Treasurer in all the fields of this club,
+                notably, when it comes to grooming the members through
+                development programs.
+              </p>
+            </div>
+            <div class="socials card-footer">
+              <a href="https://web.facebook.com/rafaelahmedrr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/in/rafaelahmedr/" target="_blank"><i
+                  class="fa-brands fa-linkedin"></i></a>
+            </div>
           </div>
         </div>
       </div>
-      <!-- <div class="executive-video container d-flex justify-content-center">
+    </div>
+    <!-- Executive video term 2022-2023 -->
+    <div class="container executive-video">
+      <div class="row d-flex justify-content-around">
+        <div class="col-md-6 col-sm-12">
+          <p>
+            We all hold abounding ambitions, but the course of paving the path
+            to reach them is rugged with uphill battles and tough grinds. Most
+            of the time we come across puzzling and unforeseeable trails, and
+            that is exactly when we are obliged to open doors for ourselves
+            and strive to achieve them. Such has been the journey of our
+            Executive Body Members of YEF. It’s not just a name tag, it is the
+            emblem that one is bestowed with to represent YEF and to modulate
+            all the pivotal activities by holding one shared vision, which is
+            to up skill and hone the potential of the members of this club by
+            working collaboratively with them and conveying an apparent idea
+            on the multi-faceted attributes of economics in our lives. These
+            individuals, with their determination and unabated efforts, have
+            finally attained this glorious and illustrious position of
+            Executive Body Member of the Young Economists’ Forum.
+          </p>
+        </div>
+        <div id="iframe-video" class="col-md-5 col-sm-12">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/eqJClwLfpME"
+            style="border: none; overflow: hidden" title="YouTube video player" scrolling="0" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen="false"></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="executive-video container d-flex justify-content-center">
         <iframe
           width="560"
           height="315"
@@ -493,87 +343,81 @@
           allowfullscreen
         ></iframe>
       </div> -->
-      <!-- Archive Button -->
-    </main>
-    <footer>
-      <!-- Footer Section Start -->
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="footer-about">
-              <div class="footer-logo">
-                <a href="#"><img src="images/yef.png" alt="" /></a>
-              </div>
-              <p>Welcome to Young Economists’ Forum.</p>
-              <p>
-                Room No.- 104 | Ground Floor | North South University 1229
-                Dhaka, Dhaka Division, Bangladesh
-              </p>
+    <!-- Archive Button -->
+  </main>
+  <footer>
+    <!-- Footer Section Start -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer-about">
+            <div class="footer-logo">
+              <a href="#"><img src="images/yef.png" alt="" /></a>
             </div>
-          </div>
-
-          <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
-            <div class="footer-widget">
-              <h6>ACTIVITIES</h6>
-              <ul>
-                <li><a href="">Events</a></li>
-                <li><a href="">Publications</a></li>
-                <li><a href="">MDPs</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
-            <div class="footer-widget">
-              <h6>CONTACT US</h6>
-              <ul>
-                <li><a href="">Store</a></li>
-                <li><a href="">Store</a></li>
-                <li><a href="">Store</a></li>
-                <li><a href="">Store</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="footer-widget">
-              <h6>SUBSCRIBE</h6>
-              <div class="footer-subscribe">
-                <p>Be the first to know about latest news</p>
-                <form action="#">
-                  <input type="text" placeholder="Your Email" />
-                  <button type="submit">
-                    <span
-                      ><i class="fa fa-envelope" arial-hidden="true"></i
-                    ></span>
-                  </button>
-                </form>
-              </div>
-
-              <div class="google-maps">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3421.6890628976626!2d90.42362576141122!3d23.815029221763723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c64c103a8093%3A0xd660a4f50365294a!2sNorth%20South%20University!5e0!3m2!1sen!2sbd!4v1647590033412!5m2!1sen!2sbd"
-                  width="250"
-                  height="ms-auto"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                ></iframe>
-              </div>
-            </div>
+            <p>Welcome to Young Economists’ Forum.</p>
+            <p>
+              Room No.- 104 | Ground Floor | North South University 1229
+              Dhaka, Dhaka Division, Bangladesh
+            </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <div class="footer-copyright">
-              <p>@ 2022 All rights reserved by NSU YEF</p>
+
+        <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+          <div class="footer-widget">
+            <h6>ACTIVITIES</h6>
+            <ul>
+              <li><a href="">Events</a></li>
+              <li><a href="">Publications</a></li>
+              <li><a href="">MDPs</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+          <div class="footer-widget">
+            <h6>CONTACT US</h6>
+            <ul>
+              <li><a href="">Store</a></li>
+              <li><a href="">Store</a></li>
+              <li><a href="">Store</a></li>
+              <li><a href="">Store</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer-widget">
+            <h6>SUBSCRIBE</h6>
+            <div class="footer-subscribe">
+              <p>Be the first to know about latest news</p>
+              <form action="#">
+                <input type="text" placeholder="Your Email" />
+                <button type="submit">
+                  <span><i class="fa fa-envelope" arial-hidden="true"></i></span>
+                </button>
+              </form>
+            </div>
+
+            <div class="google-maps">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3421.6890628976626!2d90.42362576141122!3d23.815029221763723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c64c103a8093%3A0xd660a4f50365294a!2sNorth%20South%20University!5e0!3m2!1sen!2sbd!4v1647590033412!5m2!1sen!2sbd"
+                width="250" height="ms-auto" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
             </div>
           </div>
         </div>
       </div>
-    </footer>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="footer-copyright">
+            <p>@ 2022 All rights reserved by NSU YEF</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <!-- Bootstrap script link-->
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <!-- Bootstrap script link-->
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
