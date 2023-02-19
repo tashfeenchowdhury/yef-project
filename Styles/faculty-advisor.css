@@ -59,42 +59,19 @@ body {
 
 /* Executive Panel 2020-2021 */
 
-#about-panel h1 {
+#faculty-advisor h1 {
   margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
   font-weight: 600;
 }
 
-#about-panel h2 {
-  margin-top: 20px;
-  text-align: center;
-  font-weight: 400;
-}
 
-#about-panel p {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-
-
-.member {
+.advisor {
   color: #fb9c1c;
 }
+
 /*  */
-.profile {
-  padding: 0 0;
-  padding-top: 30px;
-}
-
-.profile h3 {
-  color: #fb9c1c;
-  font-family: "Hurricane", cursive;
-}
-
-#profile-1 {
-  margin-bottom: 25px;
-}
 
 .card {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
@@ -128,7 +105,7 @@ body {
 }
 
 .main-text {
-  padding: 30px 0;
+  padding: 15px 0;
   text-align: center;
 }
 
@@ -151,9 +128,9 @@ body {
 }
 
 .main-text p {
-  font-size: 15px;
+  font-size: 12px;
   padding: 0 35px;
-  
+  margin: 0;
 }
 
 .profile-card {
@@ -175,17 +152,17 @@ body {
   color: #fb9c1c;
 }
 
-#iframe-video iframe {
-  width: -webkit-fill-available;
+
+#about-faculty-advisor p{
+  font-size: 15px;
+}
+#about-faculty-advisor i{
+  color:#16354a
 }
 
-.executive-video p {
-  text-align: justify;
-}
-
-.executive-video {
-  margin-top: 25px;
-  margin-bottom: 25px;
+.about-faculty-advisor {
+  position: relative;
+  top: 27px;
 }
 
 /* Footer Section */
