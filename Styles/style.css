@@ -22,6 +22,7 @@ body {
 
 .navbar-nav li {
   padding: 0 5px;
+  font-size: 15px;
 }
 
 .navbar-nav li a {
@@ -110,8 +111,10 @@ body {
 }
 
 #banner-photo img {
+  position: relative;
+  top: 15px;
   height: auto;
-  width: 90%;
+  width: 87%;
 }
 
 .logo-img {
@@ -124,6 +127,10 @@ body {
 }
 
 /* slides part */
+#slides-part {
+  width: 70%;
+}
+
 #slides-part img {
   border-radius: 10px;
 }
@@ -138,6 +145,7 @@ body {
   text-align: justify;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding: 0 80px;
 }
 
 .yef {
@@ -327,4 +335,10 @@ footer {
     position: relative;
     left: 15px;
   }
-}
+  #slides-part{
+    width: 100%;
+  }
+  #about-yef p {
+    padding: 0;
+  }
+} 
