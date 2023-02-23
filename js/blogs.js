@@ -2,7 +2,7 @@ $(".carousel-och").owlCarousel({
   margin: 10,
   loop: true,
   autoplay: true,
-  autoplayTimeout: 3000, // 3000ms = 3  sec
+  autoplayTimeout: 4000, // 4000ms = 4  sec
   autoplayHoverPause: true,
   responsive: {
     0: {
@@ -10,11 +10,11 @@ $(".carousel-och").owlCarousel({
       nav: false,
     },
     600: {
-      items: 2,
+      items: 1,
       nav: false,
     },
     1000: {
-      items: 3    ,
+      items: 1    ,
       nav: false,
     },
   },
