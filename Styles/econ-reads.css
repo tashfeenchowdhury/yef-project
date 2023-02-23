@@ -53,120 +53,35 @@ body {
   color: aliceblue;
 }
 
-/* Econsilium logo */
+/* Trending Slider*/
 
-#econsilium-logo img {
-  height: auto;
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  position: relative;
-  top: 30px;
-}
-
-/* Econsilium Details */
-.econsilium-details article {
-  text-align: justify;
-}
-
-#econsilium-tagline {
-  color: #b41e82;
-}
-
-.econsilium-video {
+#econ-blogs h1 {
   margin-top: 30px;
-}
-
-/* Organizing committee head */
-#about-och h1 {
-  margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
   font-weight: 600;
+
 }
 
-#about-och h2 {
-  margin-top: 10px;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 400;
+.blogs {
+  color: #fb9c1c;
 }
 
-#about-och p {
-  text-align: center;
-  margin-bottom: 50px;
+.slider-main{
+    border-radius: 5px; 
+    background-color:#fff6ea;
 }
 
-.heads {
-  color: #b41e82;
+.blog-details{
+    padding: 30px;
+   text-align: justify;
 }
 
-/* OCH part */
-
-.profile {
-  padding: 0 0;
-  padding-top: 30px;
-}
-
-.profile h3 {
-  color: #b41e82;
-  font-family: "Hurricane", cursive;
-}
-
-
-.cover img {
-  height: 200px;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
-  width: 100%;
-}
-
-.profile-photo img {
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 1;
-  border-radius: 50%;
-  border: 5px solid #ffff;
-}
-
-.profile-photo:hover img {
-  border-color: #16354a;
-  transition: 0.7s;
-}
-
-.main-text {
-  text-align: center;
-}
-
-.main-text h2 {
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 20px;
-  margin: 0 0 10px;
-}
-.main-text h3 {
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 15px;
-}
-
-/* .main-text p {
-  font-size: 15px;
-  padding: 0 35px;
-} */
-
-/* .profile-card {
-    margin-bottom: 25px;
-  } */
-
-.socials i {
-  color: #16354a;
-  font-size: 25px;
-}
-
-.socials i:hover {
-  color: #b41e82;
+.author img{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 /* OCH carousel- Owl carousel */
@@ -178,13 +93,13 @@ body {
 }
 
 .owl-dot {
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   border-radius: 50%;
   cursor: pointer;
   outline: none;
   margin: 0 5px;
-  border: 2px solid #16354a !important;
+  border: 1px solid #16354a !important;
   transition: all 0.3s ease;
 }
 
@@ -193,10 +108,13 @@ body {
   background: #16354a !important;
 }
 
-.owl-carousel .owl-item img {
-  display: block;
-  width: 30% !important;
+.owl-carousel .owl-item .author img {
+    display: block;
+    height: auto;
+    width: 50px;
 }
+
+
 
 /* Footer Section */
 .footer-logo img {
@@ -213,7 +131,7 @@ ul {
 input:focus {
   outline: none;
 }
-footer a:hover,
+a:hover,
 a:focus {
   text-decoration: none;
   outline: none;
@@ -224,6 +142,7 @@ footer {
   background-image: linear-gradient(to right, #16354a, #fb9c1c);
   padding-top: 60px;
 }
+
 .footer-about {
   margin-bottom: 30px;
 }
@@ -296,16 +215,18 @@ footer {
   margin-bottom: 0;
 }
 
+.footer-copyright p a {
+  color: white;
+  text-decoration: none;
+}
+.footer-copyright p a:hover {
+  color: #16354a;
+}
+
 .google-maps {
   margin-top: 10px;
 }
 
-@media all and (max-width: 480px) {
-  #nav-yef-logo {
-    position: relative;
-    right: 75px;
-  }
-  .econsilium-details article {
-    margin-top: -100px;
-  }
-}
+/* @media all and (max-width: 480px) {
+
+}  */
