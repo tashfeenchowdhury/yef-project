@@ -169,7 +169,12 @@ a:focus {
 
 footer {
   background-image: linear-gradient(to right, #16354a, #fb9c1c);
-  padding-top: 60px;
+  padding-top: 20px;
+}
+
+.footer-details{
+  position: relative;
+  top: 30px;
 }
 
 .footer-about {
@@ -178,8 +183,9 @@ footer {
 
 .footer-about p {
   color: aliceblue;
-  font-weight: 400;
+  font-weight: 300;
   text-align: justify;
+  font-size: small;
 }
 .footer-widget h6 {
   text-decoration: none;
@@ -190,7 +196,7 @@ footer {
 .footer-widget li {
   text-decoration: none;
   color: aliceblue;
-  font-size: 15px;
+  font-size: small;
   list-style: none;
   line-height: 30px;
 }
@@ -205,6 +211,7 @@ footer {
 }
 .footer-widget .footer-subscribe p {
   color: aliceblue;
+  font-size: small;
 }
 .footer-widget .footer-subscribe form {
   position: relative;
@@ -242,6 +249,7 @@ footer {
 .footer-copyright p {
   color: aliceblue;
   margin-bottom: 0;
+  font-size: small;
 }
 
 .footer-copyright p a {
