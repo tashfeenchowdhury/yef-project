@@ -287,6 +287,19 @@ footer {
   margin-top: 10px;
 }
 
-/* @media all and (max-width: 480px) {
+@media all and (max-width: 480px) {
+        #econ-reads{
+            display: flex;
+            flex-direction: column;
+        }
+        #econ-reads img{
+            position: relative;
+            right: 18px;
+        }
+        
+        #econ-reads p{
+            position: relative;
+            top: -20px;
+        }
 
-}  */
+} 
