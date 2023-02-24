@@ -53,119 +53,111 @@ body {
   color: aliceblue;
 }
 
-/* Econ-reads-intro */
+/* Team Leaders 2020-2021 */
 
-#econ-reads img{
-    width: 130px;
-    height: auto;
-}
-
-#econ-reads p{
-    position: relative;
-    top: 43px;
-    text-align: justify ;
-    font-size: smaller;
-    font-weight: 600;
-}
-
-
-/* Trending Slider*/
-
-#econ-blogs h1 {
+#about-panel h1 {
   margin-top: 30px;
-  margin-bottom: 20px;
   text-align: center;
   font-weight: 600;
-
 }
 
-.blogs {
+#about-panel h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#about-panel p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.leader {
   color: #fb9c1c;
 }
 
-.slider-main{
-    border-radius: 5px; 
-    background-color:#fff6ea;
+/* Leader profiles */
+.profile {
+  padding: 0 0;
+  padding-top: 30px;
 }
 
-.blog-details{
-    padding: 30px;
-    text-align: justify;
+.profile h3 {
+  color: #fb9c1c;
+  font-family: "Hurricane", cursive;
 }
 
-.multi-blog h1{
-    margin-top: 50px;
+.cover img {
+  height: 200px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 100%;
 }
 
-.author img{
-    width: 50px;
-    height: auto;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-.card-text{
-    text-align: justify;
-}
-
-
-
-.modal-btn{
-    margin-bottom: 10px;
-}
-
-
-/* line */
-
-hr:not([size]) {
-    height: 2px;
-}
-
-.line{
-    height: 3px;
-    position: relative;
-    top: 30px;
-    border-radius: 10px;
-}
-
-.intro-line{
-    height: 3px;
-    position: relative;
-    bottom: 30px;
-    border-radius: 10px;
-}
-
-
-/* OCH carousel- Owl carousel */
-
-.owl-dots {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 15px;
-}
-
-.owl-dot {
-  height: 10px;
-  width: 10px;
+.profile-photo img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
-  cursor: pointer;
-  outline: none;
-  margin: 0 5px;
-  border: 1px solid #16354a !important;
-  transition: all 0.3s ease;
+  border: 5px solid #ffff;
 }
 
-.owl-dot:hover,
-.owl-dot:active {
-  background: #16354a !important;
+.profile-photo:hover img {
+  border-color: #16354a;
+  transition: 0.7s;
 }
 
-.owl-carousel .owl-item .author img {
-    display: block;
-    height: auto;
-    width: 50px;
+.main-text {
+  padding: 30px 0;
+  text-align: center;
 }
 
+.main-text h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.main-text h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.main-text p {
+  font-size: 15px;
+  padding: 0 35px;
+}
+
+.profile-card {
+  margin-bottom: 25px;
+}
+
+.socials i {
+  color: #16354a;
+  font-size: 25px;
+}
+
+.socials i:hover {
+  color: #fb9c1c;
+}
+
+#iframe-video iframe {
+  width: -webkit-fill-available;
+}
+
+.leader-video p {
+  text-align: justify;
+}
+
+.leader-video {
+  margin-bottom: 25px;
+}
 
 
 /* Footer Section */
@@ -287,6 +279,9 @@ footer {
   margin-top: 10px;
 }
 
-/* @media all and (max-width: 480px) {
-
-}  */
+@media all and (max-width: 480px) {
+  #nav-yef-logo {
+    position: relative;
+    right: 75px;
+  }
+} 

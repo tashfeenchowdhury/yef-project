@@ -88,12 +88,6 @@ body {
   font-family: "Hurricane", cursive;
 }
 
-/* .card {
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  border-radius: 15px;
-} */
-
 .cover img {
   height: 200px;
   border-top-right-radius: 15px;
